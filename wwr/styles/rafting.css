@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0b3d0b;
-    --secondary-color: #298815;
+    --secondary-color: #eff6f7;
     --accent1-color: #4d4d4d;
     --accent2-color: #444;
     --heading-font: "Roborto", "Times New Roman", "Georgia";
@@ -46,6 +46,8 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    width: 20rem;
+    height: auto;
 }
 
 .hero img {
@@ -62,7 +64,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .hero article img {
