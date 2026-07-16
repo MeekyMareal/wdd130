@@ -55,6 +55,7 @@ p,
 
 .hero {
     position: relative;
+    bottom: 16px;
 }
 
 .hero img {
@@ -79,8 +80,8 @@ p,
     bottom: 20px;
     left: 20px;
     right: 20px;
-    color: #25550f;
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .hero article img {
