@@ -46,8 +46,15 @@ article {
 
 .socialmedia a {
     text-decoration: none;
-    width: 20rem;
-    height: auto;
+}
+
+.socialmedia img {
+    width: 20px;
+    height: inherit;
+}
+
+.hero {
+    position: relative;
 }
 
 .hero img {
@@ -56,7 +63,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -65,6 +72,10 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
