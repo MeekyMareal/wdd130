@@ -157,7 +157,7 @@ p,
 .hero article img {
     float: right;
     width: 125px;
-    border: 1px solid black;
+    border: 1px solid var(--accent2-color);
     margin: auto;
     box-shadow: 0 0 10px var(--primary-color);
 }
