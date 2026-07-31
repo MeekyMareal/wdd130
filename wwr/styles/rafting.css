@@ -223,7 +223,7 @@ p,
 .form-item textarea {
     width: 100%;
     padding: .5rem;
-    border: 1px solid #999;
+    border: 1px solid var(--secondary-color);
     font: inherit;
 }
 
@@ -263,13 +263,13 @@ button {
 }
 
 button:hover {
-    background: #d3d3d3;
+    background: var(--secondary-color);
 }
 
 /* EMPLOYEES */
 
 .employee {
-    border: 1px solid #999;
+    border: 1px solid var(--accent1-color);
     margin: 2rem auto;
     padding: 1.5rem;
     text-align: center;
