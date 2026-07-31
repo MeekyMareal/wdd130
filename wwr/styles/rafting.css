@@ -192,6 +192,7 @@ p,
 .map iframe {
     width: 250%;
     height: 250px;
+    border: 0;
 }
 
 .contact-form {
