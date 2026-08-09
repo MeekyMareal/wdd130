@@ -326,7 +326,7 @@ button:hover {
     box-sizing: border-box;
 }
 
-.sign_up button {
+.button {
     width: 100%;
     padding: 8px;
     background-color: var(--accent1-color);
@@ -334,6 +334,7 @@ button:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* PROFILE GRID LAYOUT */
@@ -360,7 +361,7 @@ button:hover {
     border-radius: 5px;
 }
 
-.guide h3 {
+.guide h2 {
     margin-top: 10px;
     font-size: 1rem;
     text-align: justify;
