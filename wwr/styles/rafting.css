@@ -345,6 +345,8 @@ button:hover {
     margin: auto;
     padding: 20px;
     justify-content: space-evenly;
+    background-color: var(--accent1-color);
+    border-radius: 5px;
 }
 
 .guide {
@@ -361,4 +363,55 @@ button:hover {
 .guide h3 {
     margin-top: 10px;
     font-size: 1rem;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+
+.guide h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+
+.call_to_action {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.call_to_action a {
+    text-decoration: none;
+}
+
+.hypertext {
+    text-align: center;
+}
+
+/* TABLE ARRANGEMENT */
+table {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+table tr {
+    justify-content: space-around;
+    background-color: var(--accent1-color);
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 10px;
+    text-align: center;
 }
