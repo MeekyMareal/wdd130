@@ -408,15 +408,12 @@ button:hover {
 
 /* TABLE ARRANGEMENT */
 table {
-    display: grid;
-    grid-template-columns: repeat(3fr);
-    padding: 10px;
-    margin-top: 10px;
-    justify-content: center;
     align-items: center;
     color: var(--secondary-color);
-    background: var(--accent1-color);
-    max-width: max-content;
+}
+
+table tr {
+    background-color: var(--primary-color);
 }
 
 table th,
