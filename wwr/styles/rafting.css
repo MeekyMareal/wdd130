@@ -372,10 +372,10 @@ button:hover {
     border-radius: 5px;
 }
 
-.guide h2 {
+.guide p {
     margin-top: 10px;
-    font-size: 1rem;
-    text-align: justify;
+    font-size: 1.2rem;
+    text-align: left;
     color: var(--secondary-color);
 }
 
@@ -409,16 +409,14 @@ button:hover {
 /* TABLE ARRANGEMENT */
 table {
     display: grid;
-    grid-template-columns: repeat(3, fr);
+    grid-template-columns: repeat(3fr);
     padding: 10px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
     color: var(--secondary-color);
-}
-
-table tr {
-    justify-content: space-around;
-    background-color: var(--accent1-color);
+    background: var(--accent1-color);
+    max-width: max-content;
 }
 
 table th,
