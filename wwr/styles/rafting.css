@@ -174,34 +174,39 @@ p,
 }
 
 .contact-container {
-    background-color: var(--secondary-color);
-    color: var(--accent2-color);
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
-
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space;
+    border-radius: 15px;
+    margin: 10px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 5px solid var(--primary-color);
 }
 
 .map {
     grid-column-start: 1;
     grid-column-end: 2;
     margin: 1rem;
-    align-items: start;
+    justify-content: center;
+    max-width: 150px;
 }
 
 .map iframe {
     width: 250%;
     height: 250px;
     border: 0;
+    border-radius: 20px;
 }
 
 .contact-form {
     padding: 1rem;
     display: flex;
     position: relative;
-    justify-content: right;
+    justify-content: f;
     align-items: flex-end;
-
 }
 
 /*form selectors */
@@ -283,13 +288,13 @@ button:hover {
     display: flex;
     justify-content: space-around;
     gap: 2rem;
-    flex-wrap: wrap;
 }
 
 .employee img {
     width: 120px;
     height: 120px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .employee p {
@@ -408,8 +413,11 @@ button:hover {
 
 /* TABLE ARRANGEMENT */
 table {
+    display: flex;
+    justify-content: center;
     align-items: center;
     color: var(--secondary-color);
+    margin-top: 10px;
 }
 
 table tr {
