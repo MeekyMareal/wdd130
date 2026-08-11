@@ -299,8 +299,14 @@ button:hover {
 
 /* RAFTING INDEX PAGE */
 /* FORM */
+.all_forms {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sign_up {
-    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     background: var(--accent2-color);
@@ -326,15 +332,20 @@ button:hover {
     box-sizing: border-box;
 }
 
-.button {
-    width: 100%;
+.submit {
+    text-align: center;
+    max-width: 400px;
     padding: 8px;
-    background-color: var(--accent1-color);
+    margin: 10px 10px 10px;
     color: var(--secondary-color);
-    border: none;
+    border: 2px solid var(--primary-color);
     border-radius: 5px;
     cursor: pointer;
+}
+
+.submit a {
     text-decoration: none;
+    text-align: center;
 }
 
 /* PROFILE GRID LAYOUT */
@@ -368,7 +379,7 @@ button:hover {
     color: var(--secondary-color);
 }
 
-.guide h4 {
+.guide h3 {
     margin-top: 10px;
     font-size: 1rem;
     text-align: justify;
