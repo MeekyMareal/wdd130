@@ -377,18 +377,12 @@ button:hover {
     border-radius: 5px;
 }
 
-.guide p {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    text-align: left;
-    color: var(--secondary-color);
-}
-
 .guide figcaption {
     margin-top: 10px;
     font-size: 1rem;
-    text-align: justify;
+    text-align: center;
     color: var(--secondary-color);
+    padding: 5px;
 }
 
 .call-to-action {

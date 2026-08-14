@@ -11,7 +11,8 @@
     float: right;
     margin: 0 0 10px 15px;
     border: 1px solid #eee;
-    padding: 3px background-color: #bbb;
+    padding: 3px;
+    background-color: #bbb;
     width: 150px;
     hight: auto;
 }
@@ -23,7 +24,7 @@ blockquote {
 cite {
     display: block;
     border-top: 1px dotted #fff;
-    padding-top: 0cqmin;
+    padding-top: 0;
     text-align: right;
     font-size: smaller;
 }
