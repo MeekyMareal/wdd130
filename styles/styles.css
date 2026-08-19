@@ -1,3 +1,11 @@
+:root {
+    --primary-colors: black;
+    --secondary-colors: #ad5858;
+    --heading-text-color: #333;
+    --colors: white;
+    --heading-font: 'Montserrat', 'Helvetica', 'sans-serif';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +19,7 @@ header,
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-colors);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -22,11 +30,11 @@ nav a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    color: white;
+    color: var(--colors);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-text-color);
     border: 0 0 1 0;
 }
 
@@ -43,7 +51,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--primary-colors);
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -70,6 +78,7 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    font-family: var(--heading-font);
 }
 
 /* Class Selectors */
@@ -77,12 +86,13 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #ddd;
-    color: #000;
+    background-color: var(--secondary-colors);
+    color: var(--primary-colors);
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 120px;
+    left: 120px;
+    color: var(--colors);
 }
